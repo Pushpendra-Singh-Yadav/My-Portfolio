@@ -1,0 +1,217 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #020101;
+}
+.main-content {
+   display: flex;
+    flex-direction: column;
+    align-items: cover;
+    padding: 20px;
+}
+
+/* Navigation Bar Styles */
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-home-btn {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.nav-home-btn:hover {
+    color: #ccc;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li {
+    margin-right: 20px;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.nav-links a:hover {
+    color: #ccc;
+}
+
+/* Introduction Section Styles */
+.intro-section {
+    background-color: #e00000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Technical Skills Section Styles */
+.technical-skills-section {
+    background-color: #fd4b4b;
+    padding: 20px;
+}
+.technical-skills-section h2 {
+    margin-top: 0;
+}
+.technical-skills-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.technical-skills-section li {
+    margin-bottom: 10px;
+}
+
+/* Non-Technical Skills Section Styles */
+.non-technical-skills-section {
+    background-color: #e00000;
+    padding: 20px;
+}
+.non-technical-skills-section h2 {
+    margin-top: 0;
+}
+.non-technical-skills-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.non-technical-skills-section li {
+    margin-bottom: 10px;
+}
+
+/* School Education Section Styles */
+.school-education-section {
+    background-color: #fd4b4b;
+    padding: 20px;
+}
+.school-education-section h2 {
+    margin-top: 0;
+}
+.school-education-section p {
+    margin-bottom: 10px;
+}
+
+/* College Education Section Styles */
+.college-education-section {
+    background-color: #e00000;
+    padding: 20px;
+}
+.college-education-section h2 {
+    margin-top: 0;
+}
+.college-education-section p {
+    margin-bottom: 10px;
+}
+
+/* Certifications Section Styles */
+.certifications-section {
+    background-color: #fd4b4b;
+    padding: 20px;
+}
+.certifications-section h2 {
+    margin-top: 0;
+}
+.certifications-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.certifications-section li {
+    margin-bottom: 10px;
+}
+
+/* Footer Section Styles */
+.footer-section {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+.footer-section h2 {
+    margin-top: 0;
+}
+.social-media-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.social-media-links li {
+    margin-right: 20px;
+}
+.social-media-links a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.social-media-links a:hover {
+    color: #ffffff;
+}
+
+/* Up Arrow Button Styles */
+.up-arrow-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #441313;
+    color: #d0ff00;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.up-arrow-btn:hover {
+    background-color: #000000;
+}
